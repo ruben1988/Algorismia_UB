@@ -30,3 +30,38 @@
 *.exe
 *.out
 *.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.ko
+*.mod.c
+*.mod
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Local files
+**/CMakeFiles/
+**/CMakeScripts/
+**/CMakeCache.txt
+**/CMakeTmp/
+**/Testing/
+**/test/
+**/doc/
+**/doxygen
+**/html/
+**/latex/
+
+# vscode
+.vscode/
+*.vscode/
+*.vscodeignore
+*.code-workspace
