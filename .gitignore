@@ -74,5 +74,4 @@ dkms.conf
 *.vscodeignore
 *.code-workspace
 
-# Ignorar todos los archivos sin extensión (útil si tus ejecutables no tienen extensión)
-*
+programa
