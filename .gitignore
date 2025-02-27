@@ -21,10 +21,18 @@
 *.smod
 
 # Compiled Static libraries
-*.lai
-*.la
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
 *.a
 *.lib
+*.dylib
+*.exp
+*.pdb
+*.ilk
 
 # Executables
 *.exe
@@ -65,3 +73,6 @@ dkms.conf
 *.vscode/
 *.vscodeignore
 *.code-workspace
+
+# Ignorar todos los archivos sin extensión (útil si tus ejecutables no tienen extensión)
+*

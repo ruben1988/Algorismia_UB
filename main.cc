@@ -7,7 +7,8 @@ void ordenacio_examples(){
 
     int choice;
     ordenacio orde;
-    int T[6] = {7,3,4,5,6,1};
+    //int T[6] = {7,3,4,5,6,1};
+    int T[6] = {4,7,3,1,6};
 
     do
     {

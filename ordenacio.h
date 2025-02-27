@@ -27,7 +27,7 @@ void ordenacio::ordenacio_per_insercio(int n, int T[]){
             j = j - 1;
         }
         T[j+1] = x;
-
+        print_array(n, T);
     }
     print_array(n, T);
 }
@@ -49,10 +49,5 @@ void ordenacio::ordenacio_per_seleccio(int n, int T[]){
     }
     print_array(n, T);
 }
-
-
-
-
-
 
 #endif
